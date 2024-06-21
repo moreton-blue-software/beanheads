@@ -2707,10 +2707,9 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==
 
-beanheads@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/beanheads/-/beanheads-0.3.3.tgz#ea8093e2a1cc66ec7aa1a79eed7f6210dcb23f5c"
-  integrity sha512-xcL8FA02+5mIsonwXxnXqd11eXR534VgXCusogBn0t5JXNckaD1UgH0C65wq5h1osK8bbv+2IYpNQM9OplVFVQ==
+"beanheads@link:../core":
+  version "0.0.0"
+  uid ""
 
 better-opn@^2.0.0:
   version "2.1.1"
