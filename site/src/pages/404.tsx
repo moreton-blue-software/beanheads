@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { BeanHead } from 'beanheads'
+import { BeanHead } from '@mb-beanheads/core'
 import { SEO } from '../components/SEO'
 
 function NotFound() {

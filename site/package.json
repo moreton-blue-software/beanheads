@@ -1,10 +1,11 @@
 {
-  "name": "characters",
+  "name": "@mb-beanheads/site",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "beanheads": "link:../core",
+    "@mb-beanheads/core": "workspace:*",
+    "cross-env": "^7.0.3",
     "gatsby": "^2.23.7",
     "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-postcss": "^2.3.9",
@@ -21,10 +22,10 @@
     "seedrandom": "^3.0.5"
   },
   "scripts": {
-    "dev": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "serve": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby serve",
+    "clean": "cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby clean"
   },
   "devDependencies": {
     "@types/react-helmet": "^6.0.0",

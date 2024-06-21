@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react'
-import { BeanHead } from 'beanheads'
+import { BeanHead } from '@mb-beanheads/core'
 
 export function SlotMachine({
   interval = 300,
