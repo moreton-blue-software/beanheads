@@ -1,4 +1,5 @@
 {
+  "name": "@mb-beanheads/core",
   "version": "0.3.3",
   "license": "MIT",
   "main": "dist/index.js",
@@ -25,7 +26,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "beanheads",
   "author": "Robert Broersma",
   "module": "dist/core.esm.js",
   "devDependencies": {
